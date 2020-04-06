@@ -186,9 +186,7 @@ a.theme-btn:hover {
 /* searchh-bar */
 #search {
   margin-left: 0em;
-}
-.modal-body {
-  margin-top: -3em;
+  margin-top: 0em;
 }
 .modal-body form {
   width: 100%;
@@ -274,8 +272,6 @@ a.theme-btn:hover {
 /* .headdr-bottom .menu-area nav ul li a.first-child{ 
   margin-left: 0px;   
 } */
-
-
 
 /* sitebar css START */
 .site-bar {
@@ -363,10 +359,13 @@ a.bar_btn {
   margin-top: 16px; 
   display: block;
 }
+
 /* site-bar css END */
 
+/*----------------------------------------*/
+/*   Header-area CSS END
+/*----------------------------------------*/
 
-/* Footer css START */
 .Footer-area {
   background: #333333;
   padding-top: 100px;
@@ -452,10 +451,12 @@ a.bar_btn {
   width: 36px;
   height: 36px;
 }
+
+
+
 /*----------------------------------------*/
 /*   Footer-area CSS END
 /*----------------------------------------*/
-
  .headdr-bottom .menu-area nav ul li a { 
         font-size: 20px; 
         margin-left: 40px; 
