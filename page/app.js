@@ -1,10 +1,12 @@
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
 
-app.set('view engine' , 'ejs');
+app.set('view engine' , 'ejs')
 app.use(express.static('public'))
+app.use(express.static('.'))
 app.use(bodyParser.urlencoded({extended : false}))
 
 const  data = fs.readFileSync('data/service.json')
